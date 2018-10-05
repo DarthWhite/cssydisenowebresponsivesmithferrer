@@ -99,6 +99,7 @@ figcaption{
     background-color: #82c3a6;
     width: 100%;
     margin: 0 auto;
+    padding: 5%;
     text-align: center;
   }
 
@@ -106,24 +107,28 @@ figcaption{
     background-color: #d5c75f;
     width: 100%;
     margin: 0 auto;
+    padding: 5%;
     border: 1px;
     text-align: center;
     font-size: 1.5em;
   }
   #imagencentral {
-    width: 90%;
-    padding: 5%;
+    width: 100%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 2px black;
     text-align: center;
   }
   #imagenizq {
-    width: 90%;
-    padding: 5% 5% 0% 5%;
+    width: 100%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 2px black;
     text-align: center;
   }
 
   #imagender {
-    width: 90%;
-    padding: 5% 5% 0% 5%;
+    width: 100%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 2px black;
     text-align: center;
   }
   .paisaje{
@@ -196,4 +201,16 @@ figcaption{
     width: 25%;
     font-size: 1.2em;
   }
+}
+
+#imagenizq:hover{
+  transform: rotate(10deg);
+  transition-duration: 1s;
+  -webkit-box-shadow: 2px 2px 2px #82c3a6;
+
+}
+#imagender:hover{
+  transform: translate(20px,-5px);
+  transition-duration: 1s;
+  -webkit-box-shadow: 2px 2px 2px #82c3a6;
 }
