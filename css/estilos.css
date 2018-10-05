@@ -214,3 +214,16 @@ figcaption{
   transition-duration: 1s;
   -webkit-box-shadow: 2px 2px 2px #82c3a6;
 }
+
+.imagenpar {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.imagen1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.imagen3{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
