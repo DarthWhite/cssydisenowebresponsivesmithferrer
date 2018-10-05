@@ -6,6 +6,25 @@ body{
   font-family: Dancing Script;
 }
 
+@-webkit-keyframes animacionheader{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+
+.animacion{
+  animation: animacionheader 1s;
+  -webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
 #encabezado{
     width: 100%;
     border-radius: 10px 10px 0px 0px;
@@ -136,12 +155,16 @@ figcaption{
   }
   .paisaje img{
     width: 100%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 2px black;
   }
   .retrato{
     width: 100%;
   }
   .retrato img{
     width: 100%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 2px black;
   }
 
   .piepag{
@@ -174,12 +197,18 @@ figcaption{
   }
   #imagencentral {
     width: 100%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 2px black;
   }
   #imagenizq {
     width: 100%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 2px black;
   }
   #imagender {
     width: 100%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 2px black;
   }
   .paisaje{
     width: 33.3%;
@@ -187,7 +216,10 @@ figcaption{
   }
   .paisaje img{
     width: 90%;
-    padding: 5% 2.5% 5% 5%;
+    margin: 5%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 2px black;
+
   }
   .retrato{
     width: 33.3%;
@@ -195,7 +227,9 @@ figcaption{
   }
   .retrato img{
     width: 90%;
-    padding: 5% 2.5% 5% 5%;
+    margin: 5%;
+    border: 1px solid black;
+    -webkit-box-shadow: 2px 2px 2px black;
   }
   .piepag{
     width: 25%;
